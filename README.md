@@ -21,6 +21,7 @@ database exploring -> export (manual) -> load_data -> data quality -> data types
 | `load_parquet_core.py` | Functions: `load_df` and `consolidate_all` |
 | `load_parquet.py` | Entry point: consolidation of all tables |
 | `check_raw_files.py` | Entry point: exploration of the raw files |
+| `project_core.py` | Global Functions |
 
 Run from the project root: first `python check_raw_files.py`, then `python load_parquet.py`.
 
